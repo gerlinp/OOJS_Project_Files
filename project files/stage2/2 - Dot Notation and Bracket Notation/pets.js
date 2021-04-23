@@ -6,3 +6,13 @@ const ernie = {
         console.log('Woof!');
     }
 }
+
+console.log(ernie['age']);
+console.log(ernie['breed']);
+
+ernie['bark']();
+
+
+var prop = 'breed';
+
+ernie[prop];
